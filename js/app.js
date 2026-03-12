@@ -302,7 +302,7 @@ function renderHome() {
         class="hero-watch-btn"
         onclick="nav(event,'/movies/${hero.slug}')"
       >
-        ${ICONS.play} Дивитися
+         Дивитися
       </button>
 
     </div>

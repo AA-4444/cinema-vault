@@ -1354,13 +1354,19 @@ ul, ol { list-style: none; }
 .hero-watch-btn{
   display:inline-flex;
   align-items:center;
+  justify-content:center;   /* центр по горизонтали */
   gap:10px;
+
   background:var(--accent);
   color:#000;
+
   padding:14px 26px;
   border-radius:10px;
+
   font-weight:700;
+  line-height:1;            /* убирает сдвиг текста вниз */
 }
+
 /* HERO MOBILE */
 
 @media (max-width:768px){
